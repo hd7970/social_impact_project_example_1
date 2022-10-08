@@ -20,3 +20,11 @@ def type_change_demo():
     print("x = ", x, type(x))
     x = 'z'
     print("x = ", x, type(x))
+
+def boolean_demo():
+    bt = True
+    bf = False
+    if bt == True and bf == False:
+        print("All good boss!!")
+    else:
+        print("All is not well!!")
