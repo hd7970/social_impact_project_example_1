@@ -27,7 +27,7 @@ def variables():
 def conditionals():
     while True:
         print("1. variable types")
-
+        print("")
         print("/. exit")
 
 # This does not need to be shown in the video.  This is more so for making sure my code works, and is usable.
