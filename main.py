@@ -1,6 +1,8 @@
 import variable_demo as vd
 import conditional_demo as cd
 import loop_demo as ld
+import list_demo as ad
+
 
 # not needed for video
 def variables():
@@ -39,6 +41,7 @@ def conditionals():
         else:
             print("ERROR::invalid input!")
 
+
 def loops():
     while True:
         print("1. while loops")
@@ -57,12 +60,29 @@ def loops():
         else:
             print("ERROR::invalid input!")
 
+
+def lists():
+    while True:
+        print("1. types of lists")
+        print("0. exit")
+        user_in = input("please make a selection (0-9) : ")
+        if user_in == '1':
+            ad.lists_arrays()
+            print("\n")
+        elif user_in == '0':
+            print("\n")
+            return
+        else:
+            print("ERROR::invalid input!")
+
+
 # This does not need to be shown in the video.  This is more so for making sure my code works, and is usable.
 def main():
     while True:
         print("1. variable demos")
         print("2. conditional demos")
         print("3. loop demos")
+        print("3. list demos")
         print("0. exit")
         user_in = input("please make a selection (0-9) : ")
         if user_in == '1':
@@ -74,9 +94,6 @@ def main():
         else:
             print("ERROR::invalid input!")
 
-#if exit
-#   return
-#write_menu
 
 # This single function call is what allows the program to run.
 main()
