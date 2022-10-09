@@ -39,6 +39,24 @@ def conditionals():
         else:
             print("ERROR::invalid input!")
 
+def loops():
+    while True:
+        print("1. while loops")
+        print("2. for loops")
+        print("0. exit")
+        user_in = input("please make a selection (0-9) : ")
+        if user_in == '1':
+            ld.while_loops()
+            print("\n")
+        elif user_in == '2':
+            ld.for_loops()
+            print("\n")
+        elif user_in == '0':
+            print("\n")
+            return
+        else:
+            print("ERROR::invalid input!")
+
 # This does not need to be shown in the video.  This is more so for making sure my code works, and is usable.
 def main():
     while True:
