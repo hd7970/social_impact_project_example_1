@@ -1,4 +1,4 @@
-def variable_type_demo():
+def variable_type():
     i = 10  # integer
     f = 1.1  # floating point
     c = 'H'  # character (python makes it a string)
@@ -13,7 +13,7 @@ def variable_type_demo():
     print("s = ", s)
     print("the type is : ", type(s))
 
-def type_change_demo():
+def type_change():
     x = 7
     print("x = ", x, type(x))
     x = 7.0
@@ -21,7 +21,7 @@ def type_change_demo():
     x = 'z'
     print("x = ", x, type(x))
 
-def boolean_demo():
+def boolean_var():
     bt = True
     bf = False
     if bt == True and bf == False:
