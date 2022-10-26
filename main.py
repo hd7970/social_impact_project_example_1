@@ -82,13 +82,17 @@ def main():
         print("1. variable demos")
         print("2. conditional demos")
         print("3. loop demos")
-        print("3. list demos")
+        print("4. list demos")
         print("0. exit")
         user_in = input("please make a selection (0-9) : ")
         if user_in == '1':
             variables()
         elif user_in == '2':
             conditionals()
+        if user_in == '3':
+            loops()
+        if user_in == '4':
+            lists()
         elif user_in == '0':
             exit(0)
         else:
