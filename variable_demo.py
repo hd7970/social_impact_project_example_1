@@ -13,13 +13,15 @@ def variable_type():
     print("s = ", s)
     print("the type is : ", type(s))
 
+
 def type_change():
     x = 7
     print("x = ", x, type(x))
-    x = 7.0
+    x = 7.1
     print("x = ", x, type(x))
     x = 'z'
     print("x = ", x, type(x))
+
 
 def boolean_var():
     bt = True
